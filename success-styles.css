@@ -1,0 +1,90 @@
+body {
+  text-decoration: none;
+  width: 100%;
+  font-family: 'Varela Round', sans-serif;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  border-left: 1px solid #E6ECF8;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #141c3a;
+}
+
+/* Page */
+.page {
+  padding: 100px 100px 0;
+}
+
+.page2 {
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 50px auto 25px;
+  /* font-variant: small-caps; */
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.3rem;
+  opacity: 90%;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.btn {
+  color: #7510f7;
+  border-color: #7510f7;
+  font-size: 1.2rem;
+  border-radius: 40px;
+  border-width: 2.3px;
+  padding: 10px 25px;
+
+  margin: 40px auto;
+}
+.btn:hover {
+  color: white;
+  background-color: #7510f7;
+  transition: 0.2s;
+}
+
+        @media (max-width: 1024px) {
+          .page {
+            padding: 80px 100px 0;
+          }
+          h1 {
+            font-size: 2.7rem;
+          }
+          p {
+            font-size: 1.25rem;
+          }
+        }
+        @media (max-width: 768px) {
+          .page {
+            padding: 90px 10px 0;
+          }
+          h1 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+          }
+          p {
+            font-size: 1.2rem;
+          }
+        }
+        @media (max-width: 425px) {
+          .page {
+            padding: 80px 10px 0;
+          }
+          h1 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+          }
+          p {
+            font-size: 1.1rem;
+          }
+        }
