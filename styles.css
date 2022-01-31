@@ -41,18 +41,11 @@ nav {
 .logo {
   width: 100px;
   padding: 25px;
-  /* margin-left: 20px; */
 }
 
 nav ul {
   float: right;
-  /* margin-right: 20px; */
 }
-
-/* .nav-ul {
-  display: inline-block;
-  float: right;
-} */
 
 nav ul li {
   display: inline-block;
@@ -102,7 +95,6 @@ a:hover {
   display: none;
 }
 
-      /* Navigation Bar - Mobile */
       @media (max-width: 1024px) {
         .nav-bar {
           padding: 0;
@@ -162,7 +154,6 @@ a:hover {
 /* Home-Page */
 .home-page {
   text-align: center;
-  /* margin: 30px 50px; */
   padding: 48px 24px 0;
 }
 
@@ -187,8 +178,6 @@ a:hover {
   letter-spacing: 1px;
   line-height: 25px;
 }
-
-      /* Home-page - Mobile */
 
       @media (max-width: 800px) {
         .home-page {
@@ -215,7 +204,7 @@ a:hover {
 .about-page {
   background-color: #7510f7;
   text-align: center;
-  padding: 100px 25%;
+  padding: 100px 25% 150px;
 }
 
 .about-page h1 {
@@ -253,8 +242,6 @@ a:hover {
 .skill-page {
   text-align: center;
   margin: 0 12.5%;
-  /* width: 75%; */
-  /* margin: auto; */
   background-color: #fff;
 
   border-radius: 20px;
@@ -268,10 +255,6 @@ a:hover {
   padding-top: 50px;
 }
 
-/* .skills {
-  padding-top: 50px;
-} */
-
 .skill-page p {
   font-size: 1.05rem;
   text-align: center;
@@ -280,16 +263,6 @@ a:hover {
   opacity: 99%;
   letter-spacing: 1px;
 }
-
-/* .skills i {
-  color: #7510f7;
-  font-size: 1.5rem;
-}
-.skills h3 {
-  text-align: left;
-  padding-left: 60px;
-  padding-top: 5px;
-} */
 
 .skill-i {
   width: 50%;
@@ -307,7 +280,6 @@ a:hover {
 
 .skills h5 {
   color: #7510f7;
-  /* font-weight: 600; */
 }
 
 .skills img {
@@ -346,44 +318,43 @@ a:hover {
       }
 
           /* Extras */
-
           .extra {
-              height: 500px;
+              height: 450px;
           }
 
             @media (max-width: 995px) {
               .extra {
-                  height: 530px;
+                  height: 330px;
               }
             }
             @media (max-width: 951px) {
               .extra {
-                  height: 1230px;
+                  height: 1030px;
               }
             }
             @media (max-width: 775px) {
               .extra {
-                  height: 1220px;
+                  height: 1020px;
               }
             }
             @media (max-width: 561px) {
               .extra {
-                  height: 1300px;
+                  height: 1100px;
               }
             }
             @media (max-width: 440px) {
               .extra {
-                  height: 1400px;
+                  height: 1100px;
               }
             }
             @media (max-width: 360px) {
               .extra {
-                  height: 1550px;
+                  height: 1250px;
               }
             }
             @media (max-width: 310px) {
               .extra {
-                  height: 1700px;
+                  height: 1400px;
               }
             }
 
@@ -477,16 +448,11 @@ a:hover {
   color: #fff;
 }
 
-.contact-page .container {
-  /* width: 100%; */
-}
-
 .contact-page .column {
   width: 33.3333%;
 }
 
 .contact-page .column * {
-  /* margin: auto; */
   text-align: center;
   padding: 10px;
   height: 55px;
@@ -500,7 +466,6 @@ a:hover {
 }
 
 .contact-page p {
-  /* font-size: 1rem; */
   opacity: 90%;
   letter-spacing: 1px;
 }
